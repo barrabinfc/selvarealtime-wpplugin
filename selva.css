@@ -1,0 +1,23 @@
+.plimplim-newposts {
+  color: #f00;
+}
+
+.selva-animated {
+  max-height: 120px;
+  transition: 1s;
+  animation-name: grow;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+  animation-duration: 0.6s;
+}
+
+@keyframes grow {
+  from {
+    opacity: 0;
+    transform: translateY(-40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
